@@ -1,0 +1,23 @@
+/* .navbar-light .navbar-nav .nav-link {
+    color:black;
+} */
+
+h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Oswald', sans-serif;   
+}
+p,a,button{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+.common__color{
+    color: #ffc107;
+}
+.common__btn{
+    padding: 15px 30px;
+    color: white;
+    background-color: #3737ff;
+    border: none;
+    border-radius: 12px;
+}
