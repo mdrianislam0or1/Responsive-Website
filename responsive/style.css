@@ -24,30 +24,16 @@ h1{
 }
 
 
-/* 
-casual shoes */
-.shoe__card{
-    border: none;
-   
-}
-.shoes__card{
-    border-radius: 25px;
-}
-.shoe__card img{
-    background-color: #f3f3f3;
-    border-radius: 25px;
-    margin-top: 13px;
-}
-
-.shoe__footer{
-    border: none;
-    background-color: white;
-}
 
 
 
-/* 
-formal-shoe-style */
+
+
+/*                          casual shoes                    &&&&&&&&&&                    formal-shoe-style */
+
+
+
+
 
 
 .formal__border{
@@ -66,6 +52,16 @@ formal-shoe-style */
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /* find the perfect fit */
 
 .fit__img{
@@ -76,3 +72,41 @@ formal-shoe-style */
 .fit__img img{
     width: 100%;
 }
+
+.fit__border{
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+creative style */
+
+
+#creative__section{
+    background: url(../img/uns.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.icon__info h5{
+    padding: 5px;
+    border-bottom: 3px solid gray;
+    border-right: 3px solid gray;
+}
+
+
+
