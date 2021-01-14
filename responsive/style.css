@@ -1,61 +1,69 @@
 /* common__part */
-h1,h2,h3,h4,h5,h6,span{
-    font-family: 'Oswald', sans-serif;   
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: "Oswald", sans-serif;
 }
-p,a,button{
-    font-family: 'Roboto', sans-serif;
+p,
+a,
+button,
+small {
+  font-family: "Roboto", sans-serif;
 }
-h1{
-    font-size: 60px;
+h1 {
+  font-size: 60px;
 }
-.common__color{
-    color: #fd7e14;
+.common__color {
+  color: #fd7e14;
 }
-.common__btn{
-    padding: 17px 36px;
-    color: white;
-    background-color: #4242ff;
-    border: none;
-    border-radius: 12px;
-    text-decoration: none;
+.common__btn {
+  padding: 17px 36px;
+  color: white;
+  background-color: #4242ff;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
 }
-.hero__section{
-    background: #fff3f0;
+.hero__section {
+  background: #fff3f0;
+}
+p {
+  color: dimgray;
 }
 
-
-
+.headline__info {
+  font-size: 35px;
+}
 
 
 
 
 /*                          casual shoes                    &&&&&&&&&&                    formal-shoe-style */
 
-
-
-
-
-
-.formal__border{
-    border: none;
-    border-radius: 20px;
+@media (max-width: 798px) {
+  .headline__info {
+    text-align: center;
+  }
 }
 
-.formal__footer{
-    border: none;
-    background-color: white;
-    border-radius: 20px;
-}
-.doller{
-    color: #fd7e14;
-    font-size: 40px;
+.formal__border {
+  border: none;
+  border-radius: 20px;
 }
 
-
-
-
-
-
+.formal__footer {
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+}
+.doller {
+  color: #fd7e14;
+  font-size: 40px;
+}
 
 
 
@@ -64,20 +72,17 @@ h1{
 
 /* find the perfect fit */
 
-.fit__img{
-    width: 100px;
-    margin-left: 50px;
-
+.fit__img {
+  width: 100px;
+  margin-left: 50px;
 }
-.fit__img img{
-    width: 100%;
-}
-
-.fit__border{
-    border-radius: 15px;
+.fit__img img {
+  width: 100%;
 }
 
-
+.fit__border {
+  border-radius: 15px;
+}
 
 
 
@@ -92,21 +97,16 @@ h1{
 /* 
 creative style */
 
-
-#creative__section{
-    background: url(../img/uns.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+#creative__section {
+  background: url(../img/uns.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.icon__info h5{
-    padding: 5px;
-    border-bottom: 3px solid gray;
-    border-right: 3px solid gray;
+.icon__info h5 {
+  padding: 5px;
+  border-bottom: 3px solid gray;
+  border-right: 3px solid gray;
 }
-
-
-
